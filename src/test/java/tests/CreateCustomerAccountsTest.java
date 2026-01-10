@@ -82,7 +82,6 @@ public class CreateCustomerAccountsTest {
         WebElement searchCustomerElement = driver.findElement(By.xpath("//input[@placeholder='Search Customer']"));
         searchCustomerElement.sendKeys(fullName);
 
-//        driver.quit();
 
     }
 }

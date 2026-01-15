@@ -1,0 +1,12 @@
+tests/CreateCustomerTest.class
+pages/ManagerPage.class
+tests/CreateCustomersTest.class
+pages/BasePage.class
+pages/AccountPage.class
+sharedData/SharedData.class
+models/CustomerModel.class
+pages/CustomersPage.class
+tests/CreateCustomerAccountsTest.class
+pages/CustomerPage.class
+pages/LoginPage.class
+utils/LogUtility.class

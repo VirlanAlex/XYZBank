@@ -13,7 +13,7 @@ public class CreateCustomersTest extends SharedData {
 
     @Test
     public void automationTest() {
-        CustomerModel testData = new CustomerModel("CustomersData.json");
+        //CustomerModel testData = new CustomerModel("CustomersData.json");
 
         LoginPage loginPage = new LoginPage(getDriver());
         loginPage.loginBankManager();

@@ -1,0 +1,12 @@
+/Users/dorhaalex/Automation/Java/XYZBank/src/test/java/models/CustomerModel.java
+/Users/dorhaalex/Automation/Java/XYZBank/src/test/java/pages/AccountPage.java
+/Users/dorhaalex/Automation/Java/XYZBank/src/test/java/pages/BasePage.java
+/Users/dorhaalex/Automation/Java/XYZBank/src/test/java/pages/CustomerPage.java
+/Users/dorhaalex/Automation/Java/XYZBank/src/test/java/pages/CustomersPage.java
+/Users/dorhaalex/Automation/Java/XYZBank/src/test/java/pages/LoginPage.java
+/Users/dorhaalex/Automation/Java/XYZBank/src/test/java/pages/ManagerPage.java
+/Users/dorhaalex/Automation/Java/XYZBank/src/test/java/sharedData/SharedData.java
+/Users/dorhaalex/Automation/Java/XYZBank/src/test/java/tests/CreateCustomerAccountsTest.java
+/Users/dorhaalex/Automation/Java/XYZBank/src/test/java/tests/CreateCustomerTest.java
+/Users/dorhaalex/Automation/Java/XYZBank/src/test/java/tests/CreateCustomersTest.java
+/Users/dorhaalex/Automation/Java/XYZBank/src/test/java/utils/LogUtility.java

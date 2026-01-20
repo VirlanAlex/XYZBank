@@ -27,5 +27,8 @@ public class CreateCustomersTest extends SharedData {
 
         CustomerPage customerPage = new CustomerPage(getDriver());
         customerPage.createCustomersProcess(firstNameValueList, lastNameValueList, postCodeValueList);
+
+
+
     }
 }

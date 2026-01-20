@@ -15,6 +15,7 @@ public class CustomerModel {
     //ar trebui sa incarc fisierul json
     //ar trebui sa citesc din fisier si sa extrag valorile
     //valorile pe care le-am extras trebuie sa le dau ca parametrii mai jos
+
     public CustomerModel(String filePath) {
         loadFromJson(filePath);
     }

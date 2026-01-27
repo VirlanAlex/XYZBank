@@ -10,10 +10,11 @@ name: Custom pipeline
 
 on:
   workflow_dispatch:
-    suiteName:
-      description: "Please specify the suite name (@SmokeSuite, @SanitySuite, @RegressionSuite)"
-      required: true
-      default: "@SmokeSuite"
+    inputs:
+      suiteName:
+        description: "Please specify the suite name (@SmokeSuite, @SanitySuite, @RegressionSuite)"
+        required: true
+        default: "@SmokeSuite"
 
 jobs:
   build:

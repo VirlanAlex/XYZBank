@@ -1,4 +1,5 @@
 tests/CreateCustomerTest.class
+tests/SuiteType.class
 pages/ManagerPage.class
 tests/CreateCustomersTest.class
 pages/BasePage.class

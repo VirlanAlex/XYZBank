@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
     inputs:
       suiteName:
-        description: "Please specify the suite name (@SmokeSuite, @SanitySuite, @RegressionSuite)"
+        description: "Please specify the suite name (@SmokeSuite, @RegressionSuite, @CustomerSuite)"
         required: true
         default: "@SmokeSuite"
 
@@ -31,4 +31,4 @@ jobs:
         cache: maven
 
     - name: Run automation tests
-      run: mvn clean install
+      run: mvn clean install -Dgroups=${{ github.event.inputs.suiteName }}

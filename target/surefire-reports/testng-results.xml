@@ -1,53 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-27T19:31:50 EET" name="ParallelSuite" finished-at="2026-01-27T19:31:55 EET" duration-ms="4734">
+  <suite started-at="2026-01-27T20:26:37 EET" name="ParallelSuite" finished-at="2026-01-27T20:26:41 EET" duration-ms="3923">
     <groups>
+      <group name="@RegressionSuite">
+        <method signature="CreateCustomerTest.automationTest()[pri:0, instance:tests.CreateCustomerTest@229d10bd]" name="automationTest" class="tests.CreateCustomerTest"/>
+      </group> <!-- @RegressionSuite -->
+      <group name="@AccountSuite">
+        <method signature="CreateCustomerTest.automationTest()[pri:0, instance:tests.CreateCustomerTest@229d10bd]" name="automationTest" class="tests.CreateCustomerTest"/>
+      </group> <!-- @AccountSuite -->
+      <group name="@CustomerSuite">
+        <method signature="CreateCustomerTest.automationTest()[pri:0, instance:tests.CreateCustomerTest@229d10bd]" name="automationTest" class="tests.CreateCustomerTest"/>
+      </group> <!-- @CustomerSuite -->
     </groups>
-    <test started-at="2026-01-27T19:31:50 EET" name="AllTests" finished-at="2026-01-27T19:31:55 EET" duration-ms="4734">
-      <class name="tests.CreateCustomersTest">
-        <test-method is-config="true" signature="prepareEnvironment()[pri:0, instance:tests.CreateCustomersTest@1f0f1111]" started-at="2026-01-27T19:31:50 EET" name="prepareEnvironment" finished-at="2026-01-27T19:31:53 EET" duration-ms="2807" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prepareEnvironment -->
-        <test-method signature="automationTest()[pri:0, instance:tests.CreateCustomersTest@1f0f1111]" started-at="2026-01-27T19:31:53 EET" name="automationTest" finished-at="2026-01-27T19:31:54 EET" duration-ms="1248" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- automationTest -->
-        <test-method is-config="true" signature="clearEnvironment()[pri:0, instance:tests.CreateCustomersTest@1f0f1111]" started-at="2026-01-27T19:31:54 EET" name="clearEnvironment" finished-at="2026-01-27T19:31:54 EET" duration-ms="88" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clearEnvironment -->
-      </class> <!-- tests.CreateCustomersTest -->
+    <test started-at="2026-01-27T20:26:37 EET" name="AllTests" finished-at="2026-01-27T20:26:41 EET" duration-ms="3923">
       <class name="tests.CreateCustomerTest">
-        <test-method is-config="true" signature="prepareEnvironment()[pri:0, instance:tests.CreateCustomerTest@124c278f]" started-at="2026-01-27T19:31:50 EET" name="prepareEnvironment" finished-at="2026-01-27T19:31:53 EET" duration-ms="2776" status="PASS">
+        <test-method is-config="true" signature="prepareEnvironment()[pri:0, instance:tests.CreateCustomerTest@229d10bd]" started-at="2026-01-27T20:26:37 EET" name="prepareEnvironment" finished-at="2026-01-27T20:26:39 EET" duration-ms="2086" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareEnvironment -->
-        <test-method signature="automationTest()[pri:0, instance:tests.CreateCustomerTest@124c278f]" started-at="2026-01-27T19:31:53 EET" name="automationTest" finished-at="2026-01-27T19:31:55 EET" duration-ms="1859" status="PASS">
+        <test-method signature="automationTest()[pri:0, instance:tests.CreateCustomerTest@229d10bd]" started-at="2026-01-27T20:26:39 EET" name="automationTest" finished-at="2026-01-27T20:26:40 EET" duration-ms="1734" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationTest -->
-        <test-method is-config="true" signature="clearEnvironment()[pri:0, instance:tests.CreateCustomerTest@124c278f]" started-at="2026-01-27T19:31:55 EET" name="clearEnvironment" finished-at="2026-01-27T19:31:55 EET" duration-ms="86" status="PASS">
+        <test-method is-config="true" signature="clearEnvironment()[pri:0, instance:tests.CreateCustomerTest@229d10bd]" started-at="2026-01-27T20:26:40 EET" name="clearEnvironment" finished-at="2026-01-27T20:26:41 EET" duration-ms="90" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearEnvironment -->
       </class> <!-- tests.CreateCustomerTest -->
-      <class name="tests.CreateCustomerAccountsTest">
-        <test-method is-config="true" signature="prepareEnvironment()[pri:0, instance:tests.CreateCustomerAccountsTest@49c386c8]" started-at="2026-01-27T19:31:50 EET" name="prepareEnvironment" finished-at="2026-01-27T19:31:53 EET" duration-ms="2562" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prepareEnvironment -->
-        <test-method signature="automationTest()[pri:0, instance:tests.CreateCustomerAccountsTest@49c386c8]" started-at="2026-01-27T19:31:53 EET" name="automationTest" finished-at="2026-01-27T19:31:55 EET" duration-ms="1996" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- automationTest -->
-        <test-method is-config="true" signature="clearEnvironment()[pri:0, instance:tests.CreateCustomerAccountsTest@49c386c8]" started-at="2026-01-27T19:31:55 EET" name="clearEnvironment" finished-at="2026-01-27T19:31:55 EET" duration-ms="93" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clearEnvironment -->
-      </class> <!-- tests.CreateCustomerAccountsTest -->
     </test> <!-- AllTests -->
   </suite> <!-- ParallelSuite -->
 </testng-results>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="4.876" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="4.073" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/dorhaalex/Automation/Java/XYZBank/target/surefire/surefirebooter-20260127193150590_3.jar /Users/dorhaalex/Automation/Java/XYZBank/target/surefire 2026-01-27T19-31-50_550-jvmRun1 surefire-20260127193150590_1tmp surefire_0-20260127193150590_2tmp"/>
+    <property name="sun.java.command" value="/Users/dorhaalex/Automation/Java/XYZBank/target/surefire/surefirebooter-20260127202636927_3.jar /Users/dorhaalex/Automation/Java/XYZBank/target/surefire 2026-01-27T20-26-36_893-jvmRun1 surefire-20260127202636927_1tmp surefire_0-20260127202636927_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/dorhaalex/Automation/Java/XYZBank/target/test-classes:/Users/dorhaalex/Automation/Java/XYZBank/target/classes:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-java/4.40.0/selenium-java-4.40.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-api/4.40.0/selenium-api-4.40.0.jar:/Users/dorhaalex/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.40.0/selenium-chrome-driver-4.40.0.jar:/Users/dorhaalex/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.40.0/selenium-chromium-driver-4.40.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-json/4.40.0/selenium-json-4.40.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.40.0/selenium-manager-4.40.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v142/4.40.0/selenium-devtools-v142-4.40.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v143/4.40.0/selenium-devtools-v143-4.40.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v144/4.40.0/selenium-devtools-v144-4.40.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.40.0/selenium-edge-driver-4.40.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.40.0/selenium-firefox-driver-4.40.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-http/4.40.0/selenium-http-4.40.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.40.0/selenium-ie-driver-4.40.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.40.0/selenium-remote-driver-4.40.0.jar:/Users/dorhaalex/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/Users/dorhaalex/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/dorhaalex/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/dorhaalex/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/Users/dorhaalex/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/Users/dorhaalex/.m2/repository/io/opentelemetry/opentelemetry-api/1.58.0/opentelemetry-api-1.58.0.jar:/Users/dorhaalex/.m2/repository/io/opentelemetry/opentelemetry-context/1.58.0/opentelemetry-context-1.58.0.jar:/Users/dorhaalex/.m2/repository/io/opentelemetry/opentelemetry-common/1.58.0/opentelemetry-common-1.58.0.jar:/Users/dorhaalex/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.58.0/opentelemetry-exporter-logging-1.58.0.jar:/Users/dorhaalex/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.58.0/opentelemetry-sdk-common-1.58.0.jar:/Users/dorhaalex/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.58.0/opentelemetry-sdk-extension-autoconfigure-spi-1.58.0.jar:/Users/dorhaalex/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.58.0/opentelemetry-sdk-extension-autoconfigure-1.58.0.jar:/Users/dorhaalex/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.58.0/opentelemetry-sdk-trace-1.58.0.jar:/Users/dorhaalex/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.58.0/opentelemetry-sdk-1.58.0.jar:/Users/dorhaalex/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.58.0/opentelemetry-sdk-metrics-1.58.0.jar:/Users/dorhaalex/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.58.0/opentelemetry-sdk-logs-1.58.0.jar:/Users/dorhaalex/.m2/repository/net/bytebuddy/byte-buddy/1.18.4/byte-buddy-1.18.4.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-os/4.40.0/selenium-os-4.40.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.40.0/selenium-safari-driver-4.40.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-support/4.40.0/selenium-support-4.40.0.jar:/Users/dorhaalex/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/dorhaalex/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/dorhaalex/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/dorhaalex/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/dorhaalex/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.20.1/jackson-databind-2.20.1.jar:/Users/dorhaalex/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.20/jackson-annotations-2.20.jar:/Users/dorhaalex/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.20.1/jackson-core-2.20.1.jar:/Users/dorhaalex/.m2/repository/org/apache/logging/log4j/log4j-core/2.25.3/log4j-core-2.25.3.jar:/Users/dorhaalex/.m2/repository/org/apache/logging/log4j/log4j-api/2.25.3/log4j-api-2.25.3.jar:"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/dorhaalex/Automation/Java/XYZBank/target/surefire/surefirebooter-20260127193150590_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/dorhaalex/Automation/Java/XYZBank/target/surefire/surefirebooter-20260127202636927_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="25.0.1"/>
@@ -48,6 +48,7 @@
     <property name="java.version" value="25.0.1"/>
     <property name="user.dir" value="/Users/dorhaalex/Automation/Java/XYZBank"/>
     <property name="os.arch" value="aarch64"/>
+    <property name="groups" value="@AccountSuite"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/dorhaalex/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
@@ -60,66 +61,33 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="automationTest" classname="tests.CreateCustomersTest" time="1.249">
-    <system-out><![CDATA[19:31:53 [TestNG-test-AllTests-3] INFO  - ***** Execution started: CreateCustomerAccountsTest *****
-19:31:53 [TestNG-test-AllTests-1] INFO  - ***** Execution started: CreateCustomerTest *****
-19:31:53 [TestNG-test-AllTests-2] INFO  - ***** Execution started: CreateCustomersTest *****
-19:31:54 [TestNG-test-AllTests-1] INFO  - The user clicked on bank manager button
-19:31:54 [TestNG-test-AllTests-2] INFO  - The user clicked on bank manager button
-19:31:54 [TestNG-test-AllTests-1] INFO  - The user clicked on create customer button
-19:31:54 [TestNG-test-AllTests-2] INFO  - The user clicked on create customer button
+  <testcase name="automationTest" classname="tests.CreateCustomerTest" time="1.735">
+    <system-out><![CDATA[20:26:39 [TestNG-test-AllTests-1] INFO  - ***** Execution started: CreateCustomerTest *****
+20:26:39 [TestNG-test-AllTests-1] INFO  - The user clicked on bank manager button
+20:26:39 [TestNG-test-AllTests-1] INFO  - The user clicked on create customer button
+20:26:40 [TestNG-test-AllTests-1] INFO  - The user fills first name field with value: Alex
+20:26:40 [TestNG-test-AllTests-1] INFO  - The user fills last name field with value: Madalina
+20:26:40 [TestNG-test-AllTests-1] INFO  - The user fills post code field with value: E10AB
+20:26:40 [TestNG-test-AllTests-1] INFO  - The user clicks on submit button
 Customer added successfully with customer id :6
-19:31:54 [TestNG-test-AllTests-1] INFO  - The user fills first name field with value: Alex
-19:31:54 [TestNG-test-AllTests-1] INFO  - The user fills last name field with value: Madalina
-19:31:54 [TestNG-test-AllTests-1] INFO  - The user fills post code field with value: E10AB
-19:31:54 [TestNG-test-AllTests-2] INFO  - The user fills first name field with value: Alex 1
-19:31:54 [TestNG-test-AllTests-1] INFO  - The user clicks on submit button
-Customer added successfully with customer id :6
-19:31:54 [TestNG-test-AllTests-2] INFO  - The user fills last name field with value: Virlan 1
-19:31:54 [TestNG-test-AllTests-2] INFO  - The user fills post code field with value: E10AA
-19:31:54 [TestNG-test-AllTests-1] INFO  - The user accepts the alert with message: Customer added successfully with customer id :6
-19:31:54 [TestNG-test-AllTests-2] INFO  - The user clicks on submit button
-Customer added successfully with customer id :6
-19:31:54 [TestNG-test-AllTests-2] INFO  - The user accepts the customer alert
-19:31:54 [TestNG-test-AllTests-1] INFO  - The user clicks on Open Account button
-19:31:54 [TestNG-test-AllTests-2] INFO  - The user fills first name field with value: Alex 2
-19:31:54 [TestNG-test-AllTests-2] INFO  - The user fills last name field with value: Virlan 2
-19:31:54 [TestNG-test-AllTests-2] INFO  - The user fills post code field with value: E10AB
-19:31:54 [TestNG-test-AllTests-2] INFO  - The user clicks on submit button
-Customer added successfully with customer id :7
-19:31:54 [TestNG-test-AllTests-2] INFO  - The user accepts the customer alert
-19:31:54 [TestNG-test-AllTests-2] INFO  - The user fills first name field with value: Alex 3
-19:31:54 [TestNG-test-AllTests-2] INFO  - The user fills last name field with value: Virlan 3
+20:26:40 [TestNG-test-AllTests-1] INFO  - The user accepts the alert with message: Customer added successfully with customer id :6
+20:26:40 [TestNG-test-AllTests-1] INFO  - The user clicks on Open Account button
+20:26:40 [TestNG-test-AllTests-1] INFO  - The user selects Alex Madalina value from drop down
+20:26:40 [TestNG-test-AllTests-1] INFO  - The user selects Dollar value from drop down
+20:26:40 [TestNG-test-AllTests-1] INFO  - The user clicks on process button
 Account created successfully with account Number :1016
-19:31:54 [TestNG-test-AllTests-2] INFO  - The user fills post code field with value: E10AC
-19:31:54 [TestNG-test-AllTests-2] INFO  - The user clicks on submit button
-Customer added successfully with customer id :8
-19:31:54 [TestNG-test-AllTests-2] INFO  - The user accepts the customer alert
+20:26:40 [TestNG-test-AllTests-1] INFO  - The user accepts the account creation alert
+20:26:40 [TestNG-test-AllTests-1] INFO  - The user clicks on Customers page
+20:26:40 [TestNG-test-AllTests-1] INFO  - The user clicks on search customer
+20:26:40 [TestNG-test-AllTests-1] INFO  - The user fills search field with value: Alex
+20:26:40 [TestNG-test-AllTests-1] INFO  - The user validates the presence of Alex into the table
+20:26:40 [TestNG-test-AllTests-1] INFO  - The user validates the presence of Madalina into the table
+20:26:40 [TestNG-test-AllTests-1] INFO  - The user validates the presence of E10AB into the table
+20:26:40 [TestNG-test-AllTests-1] INFO  - The user deletes the customer
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
-  </testcase>
-  <testcase name="automationTest" classname="tests.CreateCustomerAccountsTest" time="1.75">
-    <system-out><![CDATA[19:31:54 [TestNG-test-AllTests-2] INFO  - ***** Execution finished: CreateCustomersTest *****
-Account created successfully with account Number :1017
-19:31:54 [TestNG-test-AllTests-1] INFO  - The user selects Alex Madalina value from drop down
-19:31:55 [TestNG-test-AllTests-1] INFO  - The user selects Dollar value from drop down
-19:31:55 [TestNG-test-AllTests-1] INFO  - The user clicks on process button
-Account created successfully with account Number :1016
-19:31:55 [TestNG-test-AllTests-1] INFO  - The user accepts the account creation alert
-Account created successfully with account Number :1018
-19:31:55 [TestNG-test-AllTests-1] INFO  - The user clicks on Customers page
-]]></system-out>
-  </testcase>
-  <testcase name="automationTest" classname="tests.CreateCustomerTest" time="1.828">
-    <system-out><![CDATA[19:31:55 [TestNG-test-AllTests-1] INFO  - The user clicks on search customer
-19:31:55 [TestNG-test-AllTests-1] INFO  - The user fills search field with value: Alex
-19:31:55 [TestNG-test-AllTests-1] INFO  - The user validates the presence of Alex into the table
-19:31:55 [TestNG-test-AllTests-1] INFO  - The user validates the presence of Madalina into the table
-19:31:55 [TestNG-test-AllTests-1] INFO  - The user validates the presence of E10AB into the table
-19:31:55 [TestNG-test-AllTests-1] INFO  - The user deletes the customer
-]]></system-out>
   </testcase>
 </testsuite>

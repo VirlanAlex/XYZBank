@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jan 15 20:38:19 EET 2026</td>
+<td>Started on:</td><td>Tue Jan 27 18:28:14 EET 2026</td>
 </tr>
-<tr><td>Total time:</td><td>10 seconds (10380 ms)</td>
+<tr><td>Total time:</td><td>25 seconds (25559 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,81 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='tests.CreateCustomersTest.automationTest()'><b>automationTest</b><br>Test class: tests.CreateCustomersTest</td>
-<td><div><pre>java.lang.RuntimeException: java.io.FileNotFoundException: CustomersData.json (No such file or directory)
-	at models.CustomerModel.loadFromJson(CustomerModel.java:28)
-	at models.CustomerModel.&lt;init&gt;(CustomerModel.java:19)
-	at tests.CreateCustomersTest.automationTest(CreateCustomersTest.java:16)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-Caused by: java.io.FileNotFoundException: CustomersData.json (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:185)
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:139)
-	at com.fasterxml.jackson.core.TokenStreamFactory._fileInputStream(TokenStreamFactory.java:328)
-	at com.fasterxml.jackson.core.JsonFactory.createParser(JsonFactory.java:1238)
-	at com.fasterxml.jackson.databind.ObjectReader.createParser(ObjectReader.java:1096)
-	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1676)
-	at models.CustomerModel.loadFromJson(CustomerModel.java:26)
-	... 33 more
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace922871524", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace922871524'><pre>java.lang.RuntimeException: java.io.FileNotFoundException: CustomersData.json (No such file or directory)
-	at models.CustomerModel.loadFromJson(CustomerModel.java:28)
-	at models.CustomerModel.&lt;init&gt;(CustomerModel.java:19)
-	at tests.CreateCustomersTest.automationTest(CreateCustomersTest.java:16)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.io.FileNotFoundException: CustomersData.json (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:185)
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:139)
-	at com.fasterxml.jackson.core.TokenStreamFactory._fileInputStream(TokenStreamFactory.java:328)
-	at com.fasterxml.jackson.core.JsonFactory.createParser(JsonFactory.java:1238)
-	at com.fasterxml.jackson.databind.ObjectReader.createParser(ObjectReader.java:1096)
-	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1676)
-	at models.CustomerModel.loadFromJson(CustomerModel.java:26)
-	... 33 more
-</pre></div></td>
-<td>0</td>
-<td>tests.CreateCustomersTest@105fece7</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -153,8 +78,13 @@ Caused by: java.io.FileNotFoundException: CustomersData.json (No such file or di
 <tr>
 <td title='tests.CreateCustomerTest.automationTest()'><b>automationTest</b><br>Test class: tests.CreateCustomerTest</td>
 <td></td>
-<td>1</td>
+<td>2</td>
 <td>tests.CreateCustomerTest@62e136d3</td></tr>
+<tr>
+<td title='tests.CreateCustomersTest.automationTest()'><b>automationTest</b><br>Test class: tests.CreateCustomersTest</td>
+<td></td>
+<td>1</td>
+<td>tests.CreateCustomersTest@105fece7</td></tr>
 <tr>
 <td title='tests.CreateCustomerAccountsTest.automationTest()'><b>automationTest</b><br>Test class: tests.CreateCustomerAccountsTest</td>
 <td></td>

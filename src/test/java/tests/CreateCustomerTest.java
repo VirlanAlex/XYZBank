@@ -2,11 +2,14 @@ package tests;
 
 import models.CustomerModel;
 import org.openqa.selenium.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.annotations.Test;
 import pages.*;
 import sharedData.SharedData;
 
 public class CreateCustomerTest extends SharedData {
+    private static final Logger log = LoggerFactory.getLogger(CreateCustomerTest.class);
 
     //data-driven testing = concept pe baza caruia datele de test se vor salva in fisiere externe cu scopul de a le
     //accesa in orice test avem nevoie + sa le putem refolosi

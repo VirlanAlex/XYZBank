@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="10.52" tests="3" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="25.711" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/dorhaalex/Automation/Java/XYZBank/target/surefire/surefirebooter-20260115203819354_3.jar /Users/dorhaalex/Automation/Java/XYZBank/target/surefire 2026-01-15T20-38-19_314-jvmRun1 surefire-20260115203819354_1tmp surefire_0-20260115203819354_2tmp"/>
+    <property name="sun.java.command" value="/Users/dorhaalex/Automation/Java/XYZBank/target/surefire/surefirebooter-20260127182813866_3.jar /Users/dorhaalex/Automation/Java/XYZBank/target/surefire 2026-01-27T18-28-13_830-jvmRun1 surefire-20260127182813866_1tmp surefire_0-20260127182813866_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/dorhaalex/Automation/Java/XYZBank/target/test-classes:/Users/dorhaalex/Automation/Java/XYZBank/target/classes:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-java/4.39.0/selenium-java-4.39.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-api/4.39.0/selenium-api-4.39.0.jar:/Users/dorhaalex/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.39.0/selenium-chrome-driver-4.39.0.jar:/Users/dorhaalex/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.39.0/selenium-chromium-driver-4.39.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-json/4.39.0/selenium-json-4.39.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.39.0/selenium-manager-4.39.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v141/4.39.0/selenium-devtools-v141-4.39.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v142/4.39.0/selenium-devtools-v142-4.39.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v143/4.39.0/selenium-devtools-v143-4.39.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.39.0/selenium-edge-driver-4.39.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.39.0/selenium-firefox-driver-4.39.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-http/4.39.0/selenium-http-4.39.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.39.0/selenium-ie-driver-4.39.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.39.0/selenium-remote-driver-4.39.0.jar:/Users/dorhaalex/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/Users/dorhaalex/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/dorhaalex/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/dorhaalex/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/Users/dorhaalex/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/Users/dorhaalex/.m2/repository/io/opentelemetry/opentelemetry-api/1.56.0/opentelemetry-api-1.56.0.jar:/Users/dorhaalex/.m2/repository/io/opentelemetry/opentelemetry-context/1.56.0/opentelemetry-context-1.56.0.jar:/Users/dorhaalex/.m2/repository/io/opentelemetry/opentelemetry-common/1.56.0/opentelemetry-common-1.56.0.jar:/Users/dorhaalex/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.56.0/opentelemetry-exporter-logging-1.56.0.jar:/Users/dorhaalex/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.56.0/opentelemetry-sdk-common-1.56.0.jar:/Users/dorhaalex/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.56.0/opentelemetry-sdk-extension-autoconfigure-spi-1.56.0.jar:/Users/dorhaalex/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.56.0/opentelemetry-sdk-extension-autoconfigure-1.56.0.jar:/Users/dorhaalex/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.56.0/opentelemetry-sdk-trace-1.56.0.jar:/Users/dorhaalex/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.56.0/opentelemetry-sdk-1.56.0.jar:/Users/dorhaalex/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.56.0/opentelemetry-sdk-metrics-1.56.0.jar:/Users/dorhaalex/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.56.0/opentelemetry-sdk-logs-1.56.0.jar:/Users/dorhaalex/.m2/repository/net/bytebuddy/byte-buddy/1.18.2/byte-buddy-1.18.2.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-os/4.39.0/selenium-os-4.39.0.jar:/Users/dorhaalex/.m2/repository/org/apache/commons/commons-exec/1.6.0/commons-exec-1.6.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.39.0/selenium-safari-driver-4.39.0.jar:/Users/dorhaalex/.m2/repository/org/seleniumhq/selenium/selenium-support/4.39.0/selenium-support-4.39.0.jar:/Users/dorhaalex/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/dorhaalex/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/dorhaalex/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/dorhaalex/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/dorhaalex/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.20.1/jackson-databind-2.20.1.jar:/Users/dorhaalex/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.20/jackson-annotations-2.20.jar:/Users/dorhaalex/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.20.1/jackson-core-2.20.1.jar:/Users/dorhaalex/.m2/repository/org/apache/logging/log4j/log4j-core/2.25.3/log4j-core-2.25.3.jar:/Users/dorhaalex/.m2/repository/org/apache/logging/log4j/log4j-api/2.25.3/log4j-api-2.25.3.jar:"/>
@@ -25,12 +25,12 @@
     <property name="java.home" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
     <property name="basedir" value="/Users/dorhaalex/Automation/Java/XYZBank"/>
-    <property name="java.vm.compressedOopsMode" value="Non-zero based"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/dorhaalex/Automation/Java/XYZBank/target/surefire/surefirebooter-20260115203819354_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/dorhaalex/Automation/Java/XYZBank/target/surefire/surefirebooter-20260127182813866_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="25.0.1"/>
@@ -60,69 +60,49 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="automationTest" classname="tests.CreateCustomerTest" time="1.545">
-    <system-out><![CDATA[Customer added successfully with customer id :6
+  <testcase name="automationTest" classname="tests.CreateCustomerTest" time="2.328">
+    <system-out><![CDATA[18:28:26 [main] INFO  - ***** Execution started: CreateCustomerTest *****
+18:28:27 [main] INFO  - The user clicked on bank manager button
+18:28:27 [main] INFO  - The user clicked on create customer button
+18:28:27 [main] INFO  - The user fills first name field with value: Alex
+18:28:27 [main] INFO  - The user fills last name field with value: Madalina
+18:28:27 [main] INFO  - The user fills post code field with value: E10AB
+18:28:27 [main] INFO  - The user clicks on submit button
+Customer added successfully with customer id :6
+18:28:27 [main] INFO  - The user accepts the alert with message: Customer added successfully with customer id :6
 Account created successfully with account Number :1016
 1016
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jan 27, 2026 6:28:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 144
 ]]></system-err>
   </testcase>
-  <testcase name="automationTest" classname="tests.CreateCustomersTest" time="0.004">
-    <failure message="java.io.FileNotFoundException: CustomersData.json (No such file or directory)" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: java.io.FileNotFoundException: CustomersData.json (No such file or directory)
-	at models.CustomerModel.loadFromJson(CustomerModel.java:28)
-	at models.CustomerModel.<init>(CustomerModel.java:19)
-	at tests.CreateCustomersTest.automationTest(CreateCustomersTest.java:16)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.io.FileNotFoundException: CustomersData.json (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:185)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:139)
-	at com.fasterxml.jackson.core.TokenStreamFactory._fileInputStream(TokenStreamFactory.java:328)
-	at com.fasterxml.jackson.core.JsonFactory.createParser(JsonFactory.java:1238)
-	at com.fasterxml.jackson.databind.ObjectReader.createParser(ObjectReader.java:1096)
-	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1676)
-	at models.CustomerModel.loadFromJson(CustomerModel.java:26)
-	... 33 more
-]]></failure>
+  <testcase name="automationTest" classname="tests.CreateCustomersTest" time="1.777">
+    <system-out><![CDATA[18:28:28 [main] INFO  - ***** Execution finished: CreateCustomerTest *****
+18:28:31 [main] INFO  - ***** Execution started: CreateCustomersTest *****
+18:28:32 [main] INFO  - The user clicked on bank manager button
+18:28:32 [main] INFO  - The user clicked on create customer button
+Customer added successfully with customer id :6
+Customer added successfully with customer id :7
+Customer added successfully with customer id :8
+]]></system-out>
+    <system-err><![CDATA[Jan 27, 2026 6:28:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 144
+]]></system-err>
   </testcase>
-  <testcase name="automationTest" classname="tests.CreateCustomerAccountsTest" time="2.048">
-    <system-out><![CDATA[Customer added successfully with customer id :6
+  <testcase name="automationTest" classname="tests.CreateCustomerAccountsTest" time="2.996">
+    <system-out><![CDATA[18:28:33 [main] INFO  - ***** Execution finished: CreateCustomersTest *****
+18:28:36 [main] INFO  - ***** Execution started: CreateCustomerAccountsTest *****
+Customer added successfully with customer id :6
 Account created successfully with account Number :1016
 Account created successfully with account Number :1017
 Account created successfully with account Number :1018
 ]]></system-out>
+    <system-err><![CDATA[Jan 27, 2026 6:28:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 144
+]]></system-err>
   </testcase>
 </testsuite>

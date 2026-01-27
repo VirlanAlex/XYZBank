@@ -25,5 +25,6 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
-    - name: Run automation test
+
+    - name: Run automation tests
       run: mvn clean install
